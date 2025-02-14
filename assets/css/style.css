@@ -457,6 +457,7 @@ body {
 
 .sc-visual {
   margin-left: 30px;
+  margin-right: 30px;
 }
 .sc-visual .text-area {
   margin-top: 18px;
@@ -505,7 +506,7 @@ body {
   height: 36px;
 }
 .sc-visual .swiper-slide {
-  width: 300px;
+  width: auto;
 }
 .sc-visual .swiper-pagination {
   display: -webkit-box;
