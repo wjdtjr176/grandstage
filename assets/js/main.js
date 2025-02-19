@@ -105,7 +105,6 @@ const bestSlide = new Swiper('.sc-best .swiper',{
 
 
 const launchSlide = new Swiper('.sc-launching .swiper',{
-    loop:true,
     slidesPerView:'auto',
 })
 
@@ -133,7 +132,6 @@ const adbannerSlide = new Swiper('.ad-banner .swiper',{
 
 
 const restockSlide = new Swiper('.sc-restock .swiper',{
-    loop:true,
     pagination:{
         el:".swiper-pagination",
     },
@@ -159,7 +157,6 @@ const hotSlide = new Swiper('.sc-hot .swiper',{
 })
 
 const curatorSlide = new Swiper('.sc-curator .swiper',{
-    loop:true,
     slidesPerView:'auto',
     spaceBetween:10,
 })
@@ -176,7 +173,6 @@ $('.sc-curator .swiper-slide a').click(function(e){
 
 
 const apparelSlide = new Swiper('.sc-apparel .swiper',{
-    loop:true,
     slidesPerView:'auto',
     spaceBetween:10,
 })
@@ -243,23 +239,7 @@ const brandSlide = new Swiper('.sc-brand .swiper',{
     }
 })
 
-const titleSlide = new Swiper('.sc-focus .swiper-title .swiper',{
-    loop:true,
-    slidesPerView:5,
-})
 
-const thumbSlide = new Swiper('.sc-focus .swiper-thumb .swiper',{
-    loop:true,
-    effect:'fade',
-    slidesPerView:1,
-    spaceBetween:30,
-})
-
-const shopSlide = new Swiper('.sc-focus .swiper-shop .swiper',{
-    loop:true,
-    slidesPerView:2.1,
-    spaceBetween:10,
-})
 
 
 const footerSlide = new Swiper('#footer .swiper',{
