@@ -6,7 +6,7 @@
 
 let lastScrollTop = 0;
 $(window).scroll(function(){
-    curr = $(this).scrollTop();
+    let curr = $(this).scrollTop();
 
 
     if (curr > 0) {

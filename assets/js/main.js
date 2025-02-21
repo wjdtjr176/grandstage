@@ -39,8 +39,8 @@ const cateSlide = new Swiper('.category .swiper',{
 
 $('.category .swiper-slide a').click(function(e){
     e.preventDefault();
-    target = $(this).data('target');
-    targetOffset = $(target).offset().top;
+    const target = $(this).data('target');
+    const targetOffset = $(target).offset().top;
 
     window.scrollTo({top:targetOffset,behavior:"auto"})
 
